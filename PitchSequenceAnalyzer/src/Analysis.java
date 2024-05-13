@@ -19,7 +19,7 @@ public class Analysis{
         PitchSequenceAnalyzer analyzer = new PitchSequenceAnalyzer1();
 
         //Gets data from a file if necessary
-        String filename = "doc/OHSAA/Wooster/AshtonStill/4-23-24.txt";
+        String filename = "doc/MLB/ChicagoWhiteSox/MikeSoroka/4-09-24.txt";
         if (!filename.equals("NA")){
             SimpleReader in = new SimpleReader1L(filename);
             while(!in.atEOS()){
